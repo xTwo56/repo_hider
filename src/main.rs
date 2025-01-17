@@ -8,7 +8,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let token = env::var("GITHUB_TOKEN").expect("GITHUB_TOKEN environment variable is not set");
 
     // List of repositories in the format "owner/repo"
-    let repos = vec!["xTwo56/Dev-Dialogue"];
+    let repos = vec!["owner/repo"];
 
     let client = Client::new();
 
